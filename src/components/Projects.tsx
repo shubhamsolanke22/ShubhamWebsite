@@ -10,10 +10,10 @@ export const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, shopping cart, and payment processing.",
+      title: "AI SaaS Platform",
+      description: "A Next.js 14 SaaS platform with GPT-4 integration, real-time collaboration, and advanced analytics. Features intelligent content generation, user management, and subscription billing.",
       image: "/api/placeholder/600/400",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
+      technologies: ["Next.js 14", "OpenAI GPT-4", "Supabase", "Stripe", "Prisma"],
       category: "fullstack",
       demoUrl: "#",
       githubUrl: "#",
@@ -21,10 +21,10 @@ export const Projects = () => {
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      title: "Smart Code Assistant",
+      description: "AI-powered VS Code extension that provides intelligent code suggestions, bug detection, and automated refactoring using machine learning models.",
       image: "/api/placeholder/600/400",
-      technologies: ["Vue.js", "Firebase", "Vuetify", "WebSockets"],
+      technologies: ["TypeScript", "OpenAI Codex", "VS Code API", "Electron"],
       category: "frontend",
       demoUrl: "#",
       githubUrl: "#",
@@ -32,10 +32,10 @@ export const Projects = () => {
     },
     {
       id: 3,
-      title: "AI Chat Bot",
-      description: "An intelligent chatbot using natural language processing to provide customer support and automated responses.",
+      title: "Real-time AI Analytics",
+      description: "Edge-deployed analytics system with ML-powered insights, predictive modeling, and real-time data processing across global CDN nodes.",
       image: "/api/placeholder/600/400",
-      technologies: ["Python", "FastAPI", "OpenAI", "Docker", "Redis"],
+      technologies: ["Edge Functions", "TensorFlow.js", "WebAssembly", "Vercel"],
       category: "backend",
       demoUrl: "#",
       githubUrl: "#",
@@ -43,10 +43,10 @@ export const Projects = () => {
     },
     {
       id: 4,
-      title: "Portfolio Website",
-      description: "A responsive portfolio website with smooth animations, dark mode support, and optimized performance.",
+      title: "Interactive Design System",
+      description: "Modern component library with AI-powered design tokens, automatic accessibility testing, and seamless Figma integration for design-to-code workflows.",
       image: "/api/placeholder/600/400",
-      technologies: ["Next.js", "TypeScript", "Framer Motion", "Tailwind CSS"],
+      technologies: ["React", "Storybook", "Figma API", "Framer Motion"],
       category: "frontend", 
       demoUrl: "#",
       githubUrl: "#",
@@ -54,10 +54,10 @@ export const Projects = () => {
     },
     {
       id: 5,
-      title: "Analytics Dashboard",
-      description: "A comprehensive analytics dashboard with real-time data visualization and reporting capabilities.",
+      title: "Voice-Powered App",
+      description: "Multi-modal application combining speech recognition, natural language processing, and real-time voice synthesis for seamless user interactions.",
       image: "/api/placeholder/600/400",
-      technologies: ["React", "D3.js", "Express", "MongoDB", "Chart.js"],
+      technologies: ["Web Speech API", "OpenAI Whisper", "tRPC", "WebRTC"],
       category: "fullstack",
       demoUrl: "#",
       githubUrl: "#",
@@ -65,10 +65,10 @@ export const Projects = () => {
     },
     {
       id: 6,
-      title: "Mobile App Backend",
-      description: "RESTful API backend for a mobile application with authentication, real-time features, and cloud storage.",
+      title: "Serverless ML Pipeline",
+      description: "Auto-scaling machine learning pipeline for image processing and analysis, deployed across edge locations for sub-100ms response times.",
       image: "/api/placeholder/600/400",
-      technologies: ["Node.js", "Express", "MongoDB", "AWS", "JWT"],
+      technologies: ["Serverless", "TensorFlow", "AWS Lambda", "CloudFlare Workers"],
       category: "backend",
       demoUrl: "#",
       githubUrl: "#",
@@ -97,8 +97,8 @@ export const Projects = () => {
               Featured Projects
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              A showcase of my recent work, demonstrating expertise across 
-              different technologies and problem-solving approaches.
+              Cutting-edge projects showcasing AI integration, modern architecture, 
+              and innovative solutions that push the boundaries of what's possible.
             </p>
           </div>
 

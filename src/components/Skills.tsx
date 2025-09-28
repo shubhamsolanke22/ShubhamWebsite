@@ -13,42 +13,42 @@ export const Skills = () => {
 
   const skillCategories = [
     {
-      title: "Frontend Development",
+      title: "AI & Modern Frontend",
       color: "primary",
       skills: [
-        { name: "React/Next.js", level: 95, icon: "⚛️" },
-        { name: "TypeScript", level: 90, icon: "🔷" },
-        { name: "CSS/Tailwind", level: 85, icon: "🎨" },
-        { name: "Vue.js", level: 75, icon: "💚" }
+        { name: "Next.js 14 + AI", level: 98, icon: "🤖" },
+        { name: "TypeScript", level: 95, icon: "🔷" },
+        { name: "OpenAI APIs", level: 90, icon: "✨" },
+        { name: "Framer Motion", level: 85, icon: "🎬" }
       ]
     },
     {
-      title: "Backend Development", 
+      title: "Backend & Database", 
       color: "accent",
       skills: [
-        { name: "Node.js", level: 88, icon: "🟢" },
-        { name: "Python", level: 82, icon: "🐍" },
-        { name: "PostgreSQL", level: 85, icon: "🐘" },
-        { name: "MongoDB", level: 80, icon: "🍃" }
+        { name: "Supabase", level: 92, icon: "⚡" },
+        { name: "Prisma ORM", level: 88, icon: "🗄️" },
+        { name: "tRPC", level: 85, icon: "🚀" },
+        { name: "Edge Functions", level: 80, icon: "⚡" }
       ]
     },
     {
-      title: "DevOps & Tools",
+      title: "Cloud & Performance",
       color: "secondary", 
       skills: [
-        { name: "Docker", level: 78, icon: "🐳" },
-        { name: "AWS", level: 72, icon: "☁️" },
-        { name: "Git", level: 92, icon: "📝" },
-        { name: "CI/CD", level: 75, icon: "🔄" }
+        { name: "Vercel", level: 95, icon: "▲" },
+        { name: "Serverless", level: 88, icon: "☁️" },
+        { name: "Edge Computing", level: 82, icon: "🌐" },
+        { name: "Real-time Data", level: 85, icon: "⚡" }
       ]
     }
   ];
 
   const certifications = [
-    "AWS Certified Developer",
-    "React Professional Certificate", 
-    "Google Analytics Certified",
-    "Scrum Master Certified"
+    "OpenAI API Specialist",
+    "Next.js Expert Certificate", 
+    "Vercel Edge Certified",
+    "AI Product Builder"
   ];
 
   return (
@@ -61,8 +61,8 @@ export const Skills = () => {
               Skills & Expertise
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Constantly learning and evolving with the latest technologies 
-              to build exceptional digital experiences.
+              Mastering cutting-edge technologies and AI tools to create 
+              intelligent, scalable solutions for tomorrow's challenges.
             </p>
           </div>
 
@@ -118,7 +118,7 @@ export const Skills = () => {
           {/* Certifications & Awards */}
           <div className="text-center scroll-reveal">
             <h3 className="text-2xl font-semibold mb-8 text-primary">
-              Certifications & Recognition
+              Specializations & Achievements
             </h3>
             
             <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -137,10 +137,10 @@ export const Skills = () => {
             {/* Fun stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
               {[
-                { number: "50+", label: "Projects Completed", icon: "🚀" },
-                { number: "3+", label: "Years Experience", icon: "⏰" },
-                { number: "15+", label: "Technologies Mastered", icon: "🛠️" },
-                { number: "100%", label: "Client Satisfaction", icon: "⭐" }
+                { number: "100+", label: "AI Solutions Built", icon: "🤖" },
+                { number: "5+", label: "Years Innovating", icon: "⚡" },
+                { number: "25+", label: "Modern Tech Stack", icon: "🛠️" },
+                { number: "99%", label: "Performance Score", icon: "⭐" }
               ].map((stat, index) => (
                 <div 
                   key={stat.label}

@@ -33,12 +33,12 @@ export const Hero = () => {
             <div className={`transition-all duration-700 delay-300 ${
               mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}>
-              Full-Stack Developer & Designer
+              AI-Driven Developer & Product Innovator
             </div>
             <div className={`transition-all duration-700 delay-500 ${
               mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}>
-              Creating digital experiences that inspire and innovate
+              Building the future with intelligent solutions and seamless user experiences
             </div>
           </div>
         </div>

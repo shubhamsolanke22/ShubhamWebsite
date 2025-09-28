@@ -6,23 +6,23 @@ export const About = () => {
   const highlights = [
     {
       icon: Code,
-      title: "Full-Stack Development",
-      description: "Expertise in modern web technologies and frameworks"
+      title: "AI-Powered Development",
+      description: "Building intelligent applications with LLMs and machine learning"
     },
     {
       icon: Palette,
-      title: "UI/UX Design",
-      description: "Creating intuitive and beautiful user experiences"
+      title: "Modern UI Systems",
+      description: "Crafting beautiful, accessible interfaces with cutting-edge tools"
     },
     {
       icon: Zap,
-      title: "Performance Optimization",
-      description: "Building fast and efficient applications"
+      title: "Edge Computing",
+      description: "Optimizing for speed with serverless and edge-first architecture"
     },
     {
       icon: Users,
-      title: "Team Collaboration",
-      description: "Working effectively in agile development teams"
+      title: "Product Strategy",
+      description: "Translating complex technical concepts into user value"
     }
   ];
 
@@ -36,8 +36,8 @@ export const About = () => {
               About Me
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Passionate developer with a keen eye for design and a love for creating 
-              innovative digital solutions that make a difference.
+              Transforming ideas into intelligent digital experiences through cutting-edge 
+              technology, AI integration, and user-centered design principles.
             </p>
           </div>
 
@@ -46,31 +46,31 @@ export const About = () => {
             {/* Profile content */}
             <div className="space-y-6 scroll-reveal">
               <div className="glass-card p-8 rounded-2xl">
-                <h3 className="text-2xl font-semibold mb-4 text-primary">My Story</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-primary">My Journey</h3>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    I'm a passionate full-stack developer with over 3 years of experience 
-                    in creating web applications that combine functionality with beautiful design. 
-                    My journey in tech started with curiosity and has evolved into a career 
-                    focused on innovation and user experience.
+                    I'm a forward-thinking full-stack developer specializing in AI-powered applications 
+                    and modern web ecosystems. My expertise spans from intelligent chatbots and machine 
+                    learning integrations to performant React applications and scalable cloud architectures. 
+                    I believe in building products that don't just work—they anticipate user needs.
                   </p>
                   <p>
-                    I specialize in modern JavaScript frameworks, responsive design, and 
-                    building scalable applications. When I'm not coding, you'll find me 
-                    exploring new technologies, contributing to open-source projects, or 
-                    sharing knowledge with the developer community.
+                    Currently focused on Next.js 14, TypeScript, and AI/ML integrations, I create 
+                    solutions that bridge the gap between complex technology and intuitive user experiences. 
+                    When I'm not shipping code, I'm experimenting with emerging tech, contributing to 
+                    open-source, or mentoring the next generation of developers.
                   </p>
                 </div>
                 
                 {/* Quick stats */}
                 <div className="grid grid-cols-2 gap-4 mt-6 pt-6 border-t border-border/20">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-primary">3+</div>
-                    <div className="text-sm text-muted-foreground">Years Experience</div>
+                    <div className="text-2xl font-bold text-primary">5+</div>
+                    <div className="text-sm text-muted-foreground">Years Building</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-accent">50+</div>
-                    <div className="text-sm text-muted-foreground">Projects Completed</div>
+                    <div className="text-2xl font-bold text-accent">100+</div>
+                    <div className="text-sm text-muted-foreground">AI Solutions</div>
                   </div>
                 </div>
               </div>
@@ -79,13 +79,13 @@ export const About = () => {
             {/* Skills tags */}
             <div className="scroll-reveal scroll-reveal-delay">
               <h3 className="text-2xl font-semibold mb-6 text-center lg:text-left">
-                Technologies I Love
+                Current Tech Stack
               </h3>
               <div className="flex flex-wrap gap-3 mb-8">
                 {[
-                  "React", "TypeScript", "Next.js", "Node.js", "Python", 
-                  "PostgreSQL", "MongoDB", "AWS", "Docker", "GraphQL",
-                  "Tailwind CSS", "Figma", "Git", "Jest", "Prisma"
+                  "Next.js 14", "TypeScript", "OpenAI API", "Supabase", "Vercel", 
+                  "Tailwind CSS", "Framer Motion", "Prisma", "tRPC", "Zustand",
+                  "React Query", "Stripe", "Resend", "Shadcn/ui", "Zod"
                 ].map((skill, index) => (
                   <Badge 
                     key={skill} 
